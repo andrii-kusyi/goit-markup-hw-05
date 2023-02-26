@@ -1,62 +1,65 @@
-# goit-markup-hw-04
+goit-markup-hw-05
 
-Version: 1.1 Create a repository goit-markup-hw-04. Clone the created repository
-and copy the previous work files into it. Add markup, icon styling and
-decorative effects to layout pages of homework #4. To generate an SVG sprite,
-use Icomoon. To optimize the generated SVG sprite, use svgomg. Set up GitHub
-Pages and add a link to the live page in the header of the GitHub repository.
-Criteria for work acceptance by the tutor Project «A1» In the root of the
-project, there is a folder called images, containing images.
+Version: 1.1 Create a repository goit-markup-hw-05. Clone the created repository
+and copy the previous work files into it. Add animated decorative effects to
+layout pages of homework #5. Set up GitHub Pages and add a link to the live page
+in the header of the GitHub repository. Criteria for work acceptance by the
+tutor Project «A1» All styles are contained in one styles.css file in the css
+folder.
 
-«A2» All vector images (icons) are collected in the icons.svg SVG sprite in the
-images folder.
+«A2» Source code is formatted with Prettier.
 
-«A3» All vector images are optimized.
+«A3» All images and text content are taken from the layout.
 
-«A4» In the root of the project, there is a css folder with style sheets.
+«A4» All HTML pages have a style normalizer modern-normalize.
 
-«A5» All styles are contained in one styles.css file in the css folder.
+«A5» The code is in line with the guide.
 
-«A6» There are no capital letters, spaces and transliteration in the file names,
-only English letters and words.
+«A6» The modal window script is linked in HTML as a separate file, modal.js.
 
-«A7» Source code is formatted with Prettier.
+Markup «B1» HTML-markup is done for all layout elements.
 
-«A8» All images and text content are taken from the layout.
+«B2» Tags are used according to their semantics.
 
-«A9» All HTML pages have a style normalizer modern-normalize.
+Styling «C1» For all hover and focus effects (color, background, shadow),
+transitions are made. Time is set to 250ms, and the timing function is
+cubic-bezier(0.4, 0, 0.2, 1).
 
-«A10» The code is in line with the guide.
+«C2» Transitions and animations explicitly specify the properties to be
+animated. There is no all value anywhere.
 
-Markup «B1» Vector graphics in the svg format are used for all icons.
+«C3» In the main navigation, the current page's link (which the user is
+currently viewing) is underlined using the ::after pseudo-element.
 
-«B2» SVG icons are properly exported. When exporting, the "group" is selected,
-not the vector itself.
+«C4» Blue overlay with text appears on the cards of the Portfolio page when
+hovering over any part of the card.
 
-«B3» All icons from the SVG sprite are added to HTML using the <svg> and <use>
-tags.
+«C5» Blue overlay slides out from the bottom of the cards on the Portfolio page,
+as shown in the video.
 
-«B4» Icons are added in the Advantages section.
+card overlay preview «C6» Pseudo-elements have no text content in the content
+property. They are used exclusively for decorative purposes.
 
-«B5» Social media icons are added in the Team section.
+Modal window «D1» The markup and styling of the modal "backdrop" (dark
+semi-transparent background) are done.
 
-«B6» Company icons are added in the Clients section.
+«D2» "Backdrop" fills 100% of the height and width of the browser viewport and
+stays fixed in it.
 
-«B7» Social media icons are added in footer.
+«D3» The markup and styling of the modal window are done.
 
-Styling «C1» The large image with darkening effect (below the header) is made as
-a background. For darkening, a multi-layered background with a gradient is used.
+«D4» The modal window is vertically and horizontally positioned in the middle of
+the backdrop.
 
-«C2» The background image in the box under the header is not stretched wider
-than its original size of 1440рх.
+«D5» The markup and styling of the button for closing the modal window in the
+upper right corner are done.
 
-«C3» There is a permanent shadow effect in the cards of the Our Team section.
+«D6» By default, the modal and backdrop are hidden using the is-hidden class in
+the backdrop, whose selector uses the visibility, opacity and pointer-events
+properties.
 
-«C4» In the cards of the Portfolio page, there is a shadow effect when hovering
-over any part of the card.
+«D7» If you remove the is-hidden class from the backdrop, the backdrop and modal
+window will appear.
 
-«C5» In the filter (list of buttons) of the Portfolio page, there is a shadow
-effect when hovering over buttons or focusing with the keyboard.
-
-«C6» When hovering or focusing with the keyboard, all icons should switch to an
-active state, i.e. change color, if specified in the layout.
+«D8» The modal window opening/closing is animated using a transition with an
+arbitrary effect such as scale or translate, and opacity.
