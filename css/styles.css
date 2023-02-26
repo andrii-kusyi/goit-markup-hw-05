@@ -89,6 +89,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-brand-iris);
     margin-right: 76px;
+    display: block;
+    padding: 24px 0;
 }
 .logo-dark {
     color: var(--dark-navyblue);
