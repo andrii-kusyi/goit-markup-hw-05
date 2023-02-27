@@ -77,8 +77,6 @@ body {
 /* ---------------------Header--------------------- */
 .page-header {
     border-bottom: 1px solid var(--accent-cornflower);
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .logo {
     font-size: 18px;
@@ -273,9 +271,6 @@ body {
 /* ---------------------Our Team--------------------- */
 .team {
     background-color: var(--light-cloud);
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .team .list {
     display: flex;
@@ -380,12 +375,10 @@ body {
     background-color: var(--dark-navyblue);
     padding-top: 100px;
     padding-bottom: 100px;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 .logo-light {
     color: var(--light-cloud);
@@ -526,7 +519,7 @@ body {
     column-gap: 24px;
 }
 .portfolio-card {
-    width: calc((100% - 2 * 24px) / 3)
+    width: calc((100% - 2 * 24px) / 3);
     transition-property: box-shadow;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
